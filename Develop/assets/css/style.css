@@ -74,10 +74,10 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* benefits class optimized and consolidated from 3 classes into one */
+/* benefits class optimized and consolidated from 3 classes into one. 10px of padding added. */
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 30px;
     clear: both;
     float: right;
     width: 20%;
@@ -92,6 +92,12 @@ p {
 h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+.benefit-brand {
+padding-top: 40px;
+}
+.benefit-cost {
+padding-top: 40px;
 }
 
 .benefit-lead img {
